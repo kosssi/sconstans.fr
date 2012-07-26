@@ -2,3 +2,5 @@
 /cache/
 silex.log
 
+# IDE
+.idea
