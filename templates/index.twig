@@ -1,0 +1,37 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+<h2 title="Accueil">Accueil</h2>
+
+<article class="cadre">
+    <header>
+        <h2>Mon actualité</h2>
+        {#<!--p class="postDetail">
+            Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time>
+            by <a href="#">Writer</a> - <a href="#comments">6 comments</a>
+        </p-->#}
+    </header>
+    <p>Derniers projets :</p>
+    <ul>
+        <li>Maquette d'un coffre fort numérique (HTML5, CSS3, GIT, Java, Spring, Tiles) (Infotel)</li>
+        <li>Création de mon site personnel</li>
+        <li>Création du site internet <a href="http://www.laborock.org">laborock.com</a></li>
+    </ul>
+</article>
+
+<article class="cadre">
+    <header>
+        <h2>Qui suis-je</h2>
+    </header>
+    <p>
+        J'habite à Paris.<br/>
+        J'ai 26 ans.<br/>
+        Email : <a href="" onmouseover="this.href='mailto:' + this.innerHTML.replace(' [at] ', '@').replace(' [dot] ', '.'); this.title=this.href" onmouseout="this.href='';this.title=''">contact [at] sconstans [dot] fr</a><br/>
+        Permis B<br/>
+        <a href="pdf/2011 - CV - Simon CONSTANS.pdf">Télécharger mon CV (pdf)</a>
+    </p>
+    <img src="img/portrait.jpg" class="portrait cadre">
+</article>
+
+{% endblock %}

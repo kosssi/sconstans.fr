@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Simon CONSTANS" />
+
+    <title>{% block title '' %} - {{ app.title }}</title>
+
+    <link href="{{ app.request.basepath }}/css/theme_simple_bleu.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+</head>
+<body class="orange">
+
+{% include 'header.twig' %}
+
+<section>
+    {% block content %}{% endblock %}
+</section>
+
+<footer>
+    <p>Copyright 2012 Simon CONSTANS</p>
+</footer>
+
+</body>
+</html>
