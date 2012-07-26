@@ -1,6 +1,9 @@
 /vendor/
 /cache/
-silex.log
+/log/
+
+symfttpd.phar
+composer.phar
 
 # IDE
 .idea
