@@ -1,0 +1,9 @@
+/vendor/
+/cache/
+/log/
+
+symfttpd.phar
+composer.phar
+
+# IDE
+.idea
