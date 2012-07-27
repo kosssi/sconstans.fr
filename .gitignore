@@ -7,3 +7,11 @@ composer.phar
 
 # IDE
 .idea
+
+/cgi-bin/
+/log/
+/ssl/
+/tmp/
+
+/web/stats
+/web/error
