@@ -9,7 +9,7 @@
     <link href="{{ app.request.basepath }}/css/theme_simple_bleu.css" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/png" href="/favicon.png" />
 </head>
-<body class="orange">
+<body class="{% for key, page in app.pages %}{% if key == app.request.get('_route') %}{{ page.couleur }}{% endif %}{% endfor %}">
 
 <header>
     <nav>
