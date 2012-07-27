@@ -15,7 +15,7 @@
     <nav>
         <ul id="menu" class="cadre">
             {% for key, page in app.pages %}
-            <li class="{% if key == app.request.get('_route') %}actif{% else %}{{ page.couleur }}{% endif %}"><a href="{{ key }}">{{ page.nom }}</a></li>
+            <li class="{% if key == app.request.get('_route') %}actif{% else %}{{ page.couleur }}{% endif %}"><a href="/{{ key }}">{{ page.nom }}</a></li>
             {% endfor %}
         </ul>
     </nav>
