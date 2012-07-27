@@ -16,7 +16,7 @@ ul#menu li {display: inline-block; width: 120px; color: white; margin: 10px; bor
 			-moz-transition: all 0.3s ease 0s; -webkit-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; -ms-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s;}
 ul#menu li:hover {-moz-transform:rotate(4deg);-webkit-transform:rotate(4deg);-o-transform:rotate(4deg);-ms-transform:rotate(4deg);transform:rotate(4deg);opacity:1; }
 ul#menu li.actif {-moz-transform:rotate(4deg);-webkit-transform:rotate(4deg);-o-transform:rotate(4deg);-ms-transform:rotate(4deg);transform:rotate(4deg);opacity:1;background-color:transparent!important;}
-ul#menu li a {display: block; padding: 10px; width: 100px; overflow: hidden; color: white; font-weight: bold; }
+ul#menu li a {display: block; padding: 10px; width: 100px; overflow: hidden; color: white; font-weight: bold; font-size: 14px; }
 ul#menu li:hover a { text-decoration: none; }
 ul#menu li.actif a {color: #333333; background-color: transparent; text-decoration: none;}
 ul#menu li.actif:hover a {color: white; }
