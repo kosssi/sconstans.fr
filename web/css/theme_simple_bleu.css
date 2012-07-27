@@ -35,7 +35,7 @@ article h2 {margin: 15px 0 20px; padding: 3px 0 0; text-indent: 25px;
 /* FOOTER */
 footer {border-top: 3px white solid;}
 footer p { margin-bottom: 0; padding-bottom: 16px; }
-footer nav {position: fixed; top: 150px; left: 0;}
+footer nav {position: fixed; top: 150px; right: 0;}
 footer nav a {background: no-repeat scroll center center transparent; display: block; width: 50px; height: 50px; background-size: 50px auto; padding: 10px; }
 footer nav a:hover {-moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg);
 					-moz-transition: all 1s ease 0s; -webkit-transition: all 1s ease 0s; -o-transition: all 1s ease 0s; -ms-transition: all 1s ease 0s; transition: all 1s ease 0s;}
@@ -44,6 +44,7 @@ footer nav a:hover {-moz-transform: rotate(360deg); -webkit-transform: rotate(36
 a.facebook {background-image: url("tsb_img/facebook.png")}
 a.twitter {background-image: url("tsb_img/twitter.png")}
 a.google {background-image: url("tsb_img/google.png")}
+a.github {background-image: url("tsb_img/github.png")}
 
 /* COULEUR */
 li.orange, .orange ul#menu li.actif:hover {background-color: #CF7001!important;} .orange ul#menu, .orange footer, .orange h2 {border-color: #CF7001} .orange h2 {color: #CF7001}
