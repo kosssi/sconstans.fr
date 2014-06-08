@@ -1,0 +1,60 @@
+@import "variable.less";
+
+#homepage {
+    background-image: url(../img/profil.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    article {
+        position: absolute;
+        margin: 20px;
+        padding: 20px 40px 40px;
+        background-color: @articleBgColor;
+        color: @articleColor;
+        display: inline-block;
+        text-align: center;
+        border-radius: 100px 5px;
+        top: 10%;
+        right: 7%;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width : @tabletWidthSize) and (min-width : @phoneWidthSize) {
+    #homepage {
+        article {
+            top: auto;
+            bottom: 10%;
+            right: 10%;
+            width: 40%;
+        }
+    }
+}
+
+@media only screen and (max-width : @phoneWidthSize)and (orientation : portrait) {
+    #homepage {
+        background-position: -140px center;
+        article {
+            top: auto;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: auto;
+            border-radius: inherit;
+        }
+    }
+}
+@media only screen and (max-width : @phoneWidthSize)and (orientation : landscape) {
+    #homepage {
+        article {
+            top: auto;
+            bottom: 0;
+            right: 0;
+            width: 50%;
+        }
+    }
+}
+

@@ -1,0 +1,17 @@
+{
+    "name": "sconstans",
+    "version": "0.2.0",
+    "private": true,
+    "engines": {
+        "npm": "1.4.3"
+    },
+    "dependencies": {
+        "grunt": "~0.4",
+        "grunt-cli": "~0.1",
+        "grunt-contrib-less": "~0.10",
+        "grunt-contrib-cssmin": "~0.7",
+        "grunt-contrib-concat": "~0.3",
+        "grunt-gh-pages": "~0.9",
+        "grunt-contrib-watch": "~0.4"
+    }
+}
