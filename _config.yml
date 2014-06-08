@@ -1,0 +1,5 @@
+name: Simon Constans
+markdown: redcarpet
+exclude:
+    - .gitignore
+    - README.md
