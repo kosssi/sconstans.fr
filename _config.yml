@@ -3,7 +3,6 @@ markdown: redcarpet
 exclude:
     - .gitignore
     - README.md
-    - CNAME
     - package.json
     - node_modules
     - Gruntfile.js
