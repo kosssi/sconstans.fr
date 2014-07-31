@@ -12,7 +12,8 @@ Board : https://waffle.io/kosssi/sconstans.fr
 
 - jekyll
 - npm
-- grunt
+- bower
+- gulp
 
 ## Language
 
@@ -20,11 +21,6 @@ Board : https://waffle.io/kosssi/sconstans.fr
 - CSS3
 - LESS
 - CoffeeScript
-
-## Command
-
-    grunt deploy : for deploy in GitHub pages
-    grunt watch : for auto-compile the assets
 
 ## Development
 
@@ -34,4 +30,6 @@ Board : https://waffle.io/kosssi/sconstans.fr
 
 ### Compile assets
 
-    ./node_modules/.bin/grunt watch
+    npm install
+    bower install
+    ./node_modules/.bin/gulp
