@@ -11,5 +11,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - gulpfile.coffee
+  - Makefile
   - package.json
   - README.md
