@@ -1,0 +1,9 @@
+{
+  "minify": {
+    "expand": true,
+    "src": [
+      "web/built/all.css"
+    ],
+    "ext": ".min.css"
+  }
+}

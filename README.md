@@ -25,3 +25,13 @@ Board : https://waffle.io/kosssi/sconstans.fr
 
     grunt deploy : for deploy in GitHub pages
     grunt watch : for auto-compile the assets
+
+## Development
+
+### Launch server
+
+    bundle exec jekyll server --watch
+
+### Compile assets
+
+    ./node_modules/.bin/grunt watch

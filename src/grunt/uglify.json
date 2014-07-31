@@ -1,0 +1,9 @@
+{
+  "dist": {
+    "files": {
+      "web/built/all.min.js": [
+        "web/built/all.js"
+      ]
+    }
+  }
+}

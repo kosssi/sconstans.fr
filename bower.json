@@ -1,0 +1,19 @@
+{
+    "name": "sconstans",
+    "description": "My website.",
+    "authors": [
+        {
+            "name": "Simon Constans",
+            "email": "simon@sharepear.io",
+            "homepage": "http://www.sconstans.fr",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "version": "2.0.0",
+    "dependencies": {
+        "font-awesome": "4.1.0",
+        "knacss": "3.0.5",
+        "picturefill": "2.1.0"
+    }
+}

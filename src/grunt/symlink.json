@@ -1,0 +1,38 @@
+{
+  "fontawesome_font_otf": {
+    "src": "bower_components/font-awesome/fonts/FontAwesome.otf",
+    "dest": "web/fonts/FontAwesome.otf"
+  },
+  "fontawesome_font_eot": {
+    "src": "bower_components/font-awesome/fonts/fontawesome-webfont.eot",
+    "dest": "web/fonts/fontawesome-webfont.eot"
+  },
+  "fontawesome_font_svg": {
+    "src": "bower_components/font-awesome/fonts/fontawesome-webfont.svg",
+    "dest": "web/fonts/fontawesome-webfont.svg"
+  },
+  "fontawesome_font_ttf": {
+    "src": "bower_components/font-awesome/fonts/fontawesome-webfont.ttf",
+    "dest": "web/fonts/fontawesome-webfont.ttf"
+  },
+  "fontawesome_font_woff": {
+    "src": "bower_components/font-awesome/fonts/fontawesome-webfont.woff",
+    "dest": "web/fonts/fontawesome-webfont.woff"
+  },
+  "bootstrap_font_eot": {
+    "src": "bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot",
+    "dest": "web/fonts/glyphicons-halflings-regular.eot"
+  },
+  "bootstrap_font_svg": {
+    "src": "bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg",
+    "dest": "web/fonts/glyphicons-halflings-regular.svg"
+  },
+  "bootstrap_font_ttf": {
+    "src": "bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf",
+    "dest": "web/fonts/glyphicons-halflings-regular.ttf"
+  },
+  "bootstrap_font_woff": {
+    "src": "bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff",
+    "dest": "web/fonts/glyphicons-halflings-regular.woff"
+  }
+}

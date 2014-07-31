@@ -1,0 +1,8 @@
+{
+  "compileBare": {
+    "options": {
+      "bare": true
+    },
+    "files": {}
+  }
+}

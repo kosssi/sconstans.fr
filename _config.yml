@@ -1,9 +1,15 @@
+---
+
 name: Simon Constans
-markdown: redcarpet
+language_code: fr
 exclude:
-    - .gitignore
-    - README.md
-    - package.json
-    - node_modules
-    - Gruntfile.js
-    - src
+  - bower_components
+  - node_modules
+  - src
+  - .gitignore
+  - bower.json
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.coffee
+  - package.json
+  - README.md

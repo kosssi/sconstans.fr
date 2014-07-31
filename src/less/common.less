@@ -1,13 +1,137 @@
+@import "variable";
+
+.h100 { height: 100%; }
+.bg0  { background-color: @base-background; }
+.bg1  { background-color: @primary-background; }
+.bg2  { background-color: @secondary-background; }
+.cl1  { color: @color1 }
+.cl2  { color: @color2 }
+.cl3  { color: @color3 }
+.cl4  { color: @color4 }
+.cl5  { color: @color5 }
+
 html, body {
     width: 100%;
     height: 100%;
 }
 
+body > section {
+  max-width: @ultra-large-screen;
+  margin: 0 auto;
+  position: relative;
+
+  article {
+    position: relative;
+  }
+}
+
+#bg {
+  z-index: -1;
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  max-width: none;
+}
+
+.simon {
+  position: absolute;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: @articleBgColor;
+  padding: @gutter;
+  margin: 0;
+}
+
+.link {
+  position: absolute;
+  top: auto;
+  left: auto;
+  right: @gutter;
+  bottom: 15px;
+
+  li {
+    padding: 0 @gutter/2;
+    display: inline-block;
+
+    i {
+      font-size: @large-value;
+    }
+  }
+}
+
+@media only screen and (max-width : @medium-screen) {
+  .simon {
+    font-size: @h2-size;
+  }
+
+  .link {
+    right: @gutter;
+    bottom: 20px;
+    li {
+      padding: 0 @gutter/2;
+      i {
+        font-size: @small-value*3;
+      }
+    }
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width : @medium-screen) {
+  .simon {
+    font-size: @h4-size;
+  }
+
+  .link {
+    right: @gutter;
+    bottom: 20px;
+    li {
+      padding: 0 @gutter/3;
+      i {
+        font-size: @small-value*2;
+      }
+    }
+  }
+}
+
+@media only screen and (orientation: portrait) and (max-width : @small-screen) {
+  .simon {
+    font-size: @h3-size;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .link {
+    right: 25%;
+    left: 25%;
+    bottom: 10px;
+    text-align: center;
+    li {
+      padding: 0 @gutter/3;
+      i {
+        font-size: @small-value*2;
+      }
+    }
+  }
+}
+
+/*
 *, *:before, *:after {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -17,10 +141,11 @@ h1 {
     font-size: 40px;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (portrait and landscape) ----------- /
 @media only screen and (max-width : 768px) {
     h1 {
         margin: 15px;
         font-size: 30px;
     }
 }
+*/

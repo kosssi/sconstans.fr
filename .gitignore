@@ -1,5 +1,5 @@
 _site
-dist
-node_modules
+bower_components
 built
-.grunt
+dist/fonts/font-awesome
+node_modules
